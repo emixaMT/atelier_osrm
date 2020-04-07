@@ -9,8 +9,8 @@ import {Trace} from './trace';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
-  title: any = 'AtelierOsrm';
-  map: any;
+  title = 'AtelierOsrm';
+  map: L.map;
   constructor(private routeService: RouteService) {
   }
 
